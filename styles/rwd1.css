@@ -1,0 +1,197 @@
+@media only screen and (min-width:413px) and (max-width: 767px) {
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  header h2 {
+    margin: 0;
+  }
+  header .nav {
+    display: none;
+  }
+  header .menu-btn {
+    display: flex;
+    opacity: 1;
+    margin-right: 30px;
+  }
+  
+  /*Home-Section*/
+  .home-sec main {
+    flex-direction: column;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center; 
+  }
+  .home-sec .intro-container {
+    margin: 10px 40px
+  }
+  .intro-container h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  .home-sec .cards-sec {
+    grid-template-columns: auto;
+    padding: 50px;
+  }
+  .home-sec .cards-sec .card  {
+    padding: 50px;
+    margin: auto;
+    max-width: 320px;
+  }
+  .cards-sec .card .r3 {
+    line-height: 1.5;
+  }
+  /*About Section*/
+  .about-sec {
+    padding: 50px 0;
+  }
+  .about-sec .discription {
+    padding: 0 30px;
+    flex-direction: column;
+  }
+
+  .about-sec .recognations {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px 30px;
+    justify-content: center;
+    gap: 50px 100px;
+  }
+  .about-sec .recognations div {
+    min-width: 140px;
+  }
+  .about-sec .our-work {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+  .about-sec .clients {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .about-sec .clients .image-container {
+    width: 75px;
+  }
+  .about-sec .testimonial-sec {
+    padding: 50px 30px;
+  }
+  .testimonial-sec .people {
+    grid-template-columns: auto;
+  }
+  .testimonial-sec .people .col .box {
+    margin: 0 auto 30px;
+    max-width: 500px;
+  }
+  /*Services Section*/
+  .services-sec .title {
+    padding: 50px 10px;
+  }
+  .services-sec .card-sec{
+    grid-template-columns: auto auto;
+    padding: 0 30px 50px;
+    gap: 30px;
+  }
+  .services-sec .blue-row {
+    padding: 50px 30px;
+  }
+  /*Portfolio Section*/
+  .portfolio-sec {
+    padding: 50px 0;
+  }
+  .portfolio-sec .img-grid {
+    grid-template-columns: auto;
+  }
+  .portfolio-sec .img-grid .col1 {
+    grid-template-rows: 2fr 4fr;
+  }
+  /*Team Section*/
+  .team-sec {
+    padding: 50px 30px;
+  }
+  .team-sec .card-sec {
+    grid-template-columns: auto;
+    padding: 50px 0;
+    gap: 60px;
+  }
+  .team-sec .card-sec .card {
+    /* width: 70%; */
+    margin: auto;
+  }
+  .team-sec .card-sec .card .profile-container {
+    height: 300px;
+  }
+  /*Pricing Section*/
+  .pricing-sec {
+    padding: 50px 30px;
+  }
+  .pricing-sec .card-sec {
+    grid-template-columns: auto;
+    gap: 40px;
+  }
+  .pricing-sec .card-sec .card {
+    width: 80%;
+    margin: auto;
+  }
+  /*FAQ section*/
+  .faq-sec .title {
+    padding: 0 30px 50px;  
+  }
+  .faq-sec main {
+    padding: 0 30px 30px;
+  }
+  /*Contact-Section*/
+  .contact-sec {
+    padding: 50px 30px;
+  }
+  .contact-sec .map-area {
+    height: 200px;
+  }
+  .contact-sec main {
+    display: block;
+  }
+  .contact-sec main form {
+    padding-top: 50px;
+  }
+  .contact-sec main .form-area,
+  .contact-sec main .form-area .row1 {
+    gap: 10px;
+  }
+  /*Footer Section*/
+  footer .info-sec {
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .info-sec .middle-col {
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer .author-row {
+    padding: 30px 20px;
+    gap: 15px;
+    flex-direction: column;
+  }
+  footer .author-row .left-sec {
+    font-size: 14px;
+  }
+  footer .author-row .left-sec .line1 {
+    margin-bottom: 5px;
+  }
+  footer .author-row .right-sec {
+    gap: 8px2;
+  }
+  footer .author-row .right-sec div,
+  footer .refresh {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+  footer .refresh a {
+    font-size: 14px;
+  }
+}
