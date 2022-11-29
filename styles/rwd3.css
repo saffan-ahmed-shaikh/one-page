@@ -1,0 +1,54 @@
+@media only screen and (min-width: 993px) and (max-width: 1100px) {
+  header {
+    padding: 26px 40px;
+  }
+  header h2 {
+    padding: 0;
+  }
+  header ul {
+    gap: 18px;
+  }
+  .home-sec .cards-sec {
+    padding: 50px;
+  }
+  .about-sec .discription {
+    padding: 0 100px;
+  }
+  .recognations{
+    padding: 40px 100px;
+  }
+  .about-sec .clients {
+    padding: 20px 100px;
+  }
+  .services-sec .title {
+    padding: 50px 100px;
+  }
+  .services-sec .card-sec {
+    padding: 0 100px 80px;
+  }
+  .team-sec .card-sec .card .info-container h3 {
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .blue-row {
+    padding: 40px 100px;
+  }
+  .our-work,
+  .testimonial-sec,
+  .portfolio-sec,
+  .team-sec,
+  .pricing-sec,
+  .contact-sec {
+    padding: 100px;
+  }
+  .faq-sec main {
+    padding: 0 150px 30px;
+  }
+  footer .info-sec {
+    padding: 80px 50px;
+    gap: 40px;
+  }
+  footer .author-row {
+    padding: 30px 100px;
+  }
+}

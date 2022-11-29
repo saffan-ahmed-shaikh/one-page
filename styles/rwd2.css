@@ -1,0 +1,143 @@
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  header {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  header h2 {
+    margin: 0;
+  }
+  header .nav {
+    display: none;
+  }
+  header .menu-btn {
+    display: flex;
+    opacity: 1;
+  }
+  .menu-btn:hover+ .nav-bar2{
+    height: 450px;
+    flex-direction: column;
+  }
+  .nav-bar2 ul{
+    gap: 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  /*Home _section*/
+  .home-sec main {
+    margin-left: 0px;
+  }
+  .home-sec .cards-sec {
+    grid-template-columns: auto auto;
+    padding: 50px 50px 0;
+  }
+
+  .home-sec .cards-sec .card {
+    padding: 50px;
+  }
+  /*About Section*/
+  .about-sec main {
+    margin-bottom: 50px;
+  }
+  .about-sec .discription {
+    padding: 0 50px;
+    gap: 20px;
+  }
+  .recognations,
+  .about-sec .our-work,
+  .testimonial-sec{
+    padding: 50px;
+  }
+  .recognations div {
+    width: 141px;
+  }
+  .about-sec .our-work {
+    flex-direction: column;
+  }
+  .our-work .image-container {
+    height: 400px;
+  }
+  .about-sec .clients {
+    padding: 20px 30px;
+  }
+  .about-sec .clients .image-container {
+    width: 70px;
+  }
+  .testimonial-sec .people {
+    grid-template-columns: auto;
+    padding: 0 100px;
+  }
+
+  /*Services Section*/ 
+  .services-sec .title{
+    padding: 50px;
+  }
+  .services-sec .card-sec {
+    grid-template-columns: auto auto;
+    padding: 50px 100px;
+  }
+  .services-sec .card-sec .card {
+    padding: 40px 15px;
+  }
+  .blue-row {
+    padding: 40px 50px;
+  }
+  /*Portfolio Section*/
+  .portfolio-sec {
+    padding: 50px;
+  }
+  /*Team Section*/
+  .team-sec {
+    padding: 50px;
+  }
+  .team-sec .card-sec {
+    grid-template-columns: auto auto;
+    gap: 40px;
+  }
+  .team-sec .card-sec .card .profile-container {
+    height: 300px;
+  }
+  /*Pricing Section*/ 
+  .pricing-sec {
+    padding: 50px;
+  }
+  .pricing-sec .card-sec {
+    grid-template-columns: auto;
+    padding: 50px 100px;
+    gap: 60px;
+  }
+  /*FAQ Section*/
+  .faq-sec .title {
+    padding: 0 50px 50px;
+  }
+  .faq-sec main {
+    padding: 0 50px 30px;
+  }
+  /*Contact Section*/
+  .contact-sec {
+    padding: 50px;
+  }
+  .contact-sec main {
+    flex-direction: column;
+  }
+/*Footer Section*/
+footer .info-sec {
+  flex-direction: column;
+  padding: 50px;
+  gap: 30px;
+}
+footer .info-sec .middle-col{
+  gap: 100px;
+}
+footer .info-sec .right-col .input-row .bar {
+  width: 30%;
+}
+footer .author-row {
+  padding: 30px 50px;
+}
+footer .author-row .right-sec {
+  padding-right: 20px;
+}
+}
